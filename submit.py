@@ -4,14 +4,11 @@ import hashlib
 import requests
 from datetime import datetime, timezone
 
-NAME = "Your name"
-EMAIL = "you@example.com"
+NAME = "Usama Islam"
+EMAIL = "islamusama10@gmail.com"
 RESUME_LINK = "https://drive.google.com/file/d/1jtAR9nQJT2GNGdrabNwFZ8Bvty_G-nKg/view"
 REPOSITORY_LINK = "https://github.com/eng-usamak/automation-pipeline-test"
-
-#todo TEMP placeholder (fix this later)
-ACTION_RUN_LINK = "https://github.com/eng-usamak/automation-pipeline-test/actions/runs/PLACEHOLDER"
-
+ACTION_RUN_LINK = "https://github.com/eng-usamak/automation-pipeline-test/actions/runs/25128149104"
 SIGNING_SECRET = b"hello-there-from-b12"
 URL = "https://b12.io/apply/submission"
 
